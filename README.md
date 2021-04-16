@@ -1,6 +1,6 @@
 # my-movies
 
-Projeto da pós graduação
+Projeto da pós graduação\n
 Disciplina: Arquitetura de front end
 
 Desenvolvimento de uma SPA em React
