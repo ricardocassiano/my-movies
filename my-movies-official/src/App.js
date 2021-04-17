@@ -1,5 +1,6 @@
 import { Header } from "./components/Header";
 import { MoviesList } from "./components/MoviesList";
+import { MoviesContainer } from "./styles/MoviesContainer";
 
 
 function App() {
@@ -7,9 +8,9 @@ function App() {
     <div className="App">
       <Header />
 
-      <section>
-        <MoviesList />
-      </section>
+      <MoviesContainer>
+        <MoviesList movies={[]} />
+      </MoviesContainer>
     </div>
 
     

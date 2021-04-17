@@ -1,10 +1,11 @@
+import { HeaderContainer } from "../styles/HeaderContainer";
 import { MainMenu } from "./MainMenu";
 
 export const Header = () => (
-    <header>
+    <HeaderContainer>
         <h1>My Movies</h1>
         
         <MainMenu />
-    </header>
+    </HeaderContainer>
     
 );
