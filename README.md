@@ -24,3 +24,5 @@ Sobre o NPM...
 "npm é um gerenciador de pacotes para a linguagem de programação JavaScript. npm, Inc. é uma subsidiária do GitHub, que fornece hospedagem para desenvolvimento de software e controle de versão com o uso do Git. npm é o gerenciador de pacotes padrão para o ambiente de tempo de execução JavaScript Node.js." Fonte: Wikipédia
 
 Por ser uma subsidiária do GitHub, quando o git é instalado na máquina, os comandos npm funciionam dentro do terminal gitBash.
+
+A pasta Views é a que contém as páginas com a lógica exibida, enquanto os componentes são as marcações de fato.

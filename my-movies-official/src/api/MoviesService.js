@@ -5,8 +5,13 @@ const BASE_URL = 'https://api.themoviedb.org/3/';
 const withBaseUrl = path => `${BASE_URL}${path}?api_key=${API_KEY}`;//uso do acento grave na sintaxe
 
 export class MoviesService{
+
     static getMovies(){
         return axios(withBaseUrl('movie/popular'));
+    }
+
+    static getMovieById(id){
+        return axios(withBaseUrl(`movie/${id}`));//as crases são chamadas de template string - é o que permite utilizar variáveis dentro de uma string
     }
 
 }

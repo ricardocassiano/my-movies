@@ -4,10 +4,10 @@ import React from "react";
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import { About } from "./views/About";
+import { MovieDetail } from "./views/MovieDetail";
 
 function App() {
 
@@ -23,7 +23,12 @@ function App() {
         <Switch>
           <Route path="/about">
             <About />
-          </Route>*
+          </Route>
+          {//Os dois pontos ':' indicam a passagem de paramatro na URL - definição do react-router-dom
+          }
+          <Route path="/movie/:id">
+            <MovieDetail />
+          </Route>
           <Route path="/">
             <Home />
           </Route>
